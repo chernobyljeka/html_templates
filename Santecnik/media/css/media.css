@@ -1,0 +1,29 @@
+@media (max-device-width: 990px)
+{
+	.container 
+	{
+		width: 100% !important;
+	}
+	.logo
+	{
+		text-align: left;
+	}
+	.main_navbar
+	{
+		background-color: #008bcf;
+		width: 100%;
+		height: 110px;
+	}
+	.bottom_footer
+	{
+		text-align: center;
+	}
+
+	.bottom_footer .col:first-child
+	{
+		margin-bottom: 20px;
+	}
+
+
+	
+}

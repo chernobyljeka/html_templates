@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Интернет магазин</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\flexslider.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\style.css" media="screen" title="no title">
+  </head>
+  <body>
+    <!-- Начало шапки сайта -->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <!-- Картинка -->
+              <img class="logo" alt="Brand" src="img/logo.png">
+            </a>
+          </div>
+
+          <!-- Список -->
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="sevices.html">Дополнительные услуги</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="about.html">О Компании</a></li>
+          </ul>
+
+        </div>
+      </nav>
+      <div class="container">
+        <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/slide1.jpg" />
+          </li>
+          <li>
+            <img src="img/slide2.jpg" />
+          </li>
+          <li>
+            <img src="img/slide3.jpg" />
+          </li>
+          <li>
+            <img src="img/slide4.jpg" />
+          </li>
+        </ul>
+      </div>
+      </div>
+
+
+    </header>
+    <!-- Конец шапки сайта -->
+
+    <!-- Начало главного блока -->
+    <section class="main">
+      <div class="container">
+        <h1 class="center">Рейсы</h1>
+        <form class="" action="index.html" method="post">
+        <div style="text-align: center;">
+          <input class="input_btn " type="text" name="dir_from" value="" placeholder="Откуда" data-required="Введите станцию">
+          <span class="glyphicon glyphicon-arrow-right right"></span>
+          <input  class="input_btn" type="text" name="dir_where" value="" placeholder="Куда" data-required="Введите станцию">
+          <input  class="input_btn" type="datetime-local" name="dir_date" value="" placeholder="Когда">
+        </div>
+          <div style="text-align: center;">
+            <input type="submit" value="Найти" class="input_sub" placeholder="">
+          </div>
+
+        </form>
+
+        <div class="bs-example" data-example-id="bordered-table">
+     <table class="table table-bordered table-striped">
+        <thead>
+           <tr>
+              <th>#</th>
+              <th>Маршрут</th>
+              <th>Отправление/Прибытие</th>
+              <th>Корзина</th>
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+              <th scope="row">1</th>
+              <td>Гомель → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">2</th>
+              <td>Пинск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">3</th>
+              <td>Мурманск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">1</th>
+              <td>Гомель → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">2</th>
+              <td>Пинск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">3</th>
+              <td>Мурманск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">1</th>
+              <td>Гомель → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">2</th>
+              <td>Пинск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+           <tr>
+              <th scope="row">3</th>
+              <td>Мурманск → Брест</td>
+              <td>2.33 → 5.25</td>
+              <td><button type="button" class="btn btn-warning">Купить</button></td>
+           </tr>
+        </tbody>
+     </table>
+  </div>
+
+      </div>
+    </section>
+    <!-- Конец главного блока -->
+
+    <!-- Начало "подвала" сайта  -->
+    <footer>
+      <div class="container">
+          <div class="foot_top row">
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <a  href="#"><img class="logo_fot" src="img/logo.png" alt=""></a>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                <span class="glyphicon glyphicon-phone-alt"></span>
+                <div class="foot_block_content three_rows">
+                  <p>Звоните нам </p>
+                  <p class="phone"><a href="tel:+375xxyyyyyyy"><b>+375 xx yyy-yy-yy</b></a></p>
+                  <div class="callback"><a href="#">Закажите обратный звонок</a></div>
+                </div>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <span class="glyphicon glyphicon-time"></span>
+                  <div class="foot_block_content adress">
+                  <p>Пн-Вс: c <span>9:00</span> до <span>21:00</span> </p>
+                  <p><span>Без выходных</span></p>
+                </div>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <span class="glyphicon glyphicon-map-marker"></span>
+                  <div class="foot_block_content adress">
+                  <p><b>Наш адрес:</b></p>
+                  <p>г.Гомель, ул. Советская, д. 3</p>
+                </div>
+              </div>
+          </div>
+          </div>
+          <section class="bottom_footer">
+              <div class="container">
+                <div class="row">
+                   <div class="col col-xs-3 col-md-3 col-lg-3 col-sm-12">&copy SomeCompany 2016</div>
+                   <div class="col col-xs-9 col-md-9 col-lg-9 col-sm-12">
+                      <nav class="menu_footer">
+                        <ul>
+                          <li><a href="index.html">Главная</a></li>
+                          <li><a href="sevices.html">Дополнительные услуги</a></li>
+                          <li><a href="contact.html">Контакты</a></li>
+                          <li><a href="about.html">О Компании</a></li>
+                        </ul>
+                      </nav>
+                   </div>
+                </div>
+              </div>
+          </section>
+      </footer>
+    <!-- Коонец "подвала" сайта -->
+
+    <script src="js\jquery.min.js" charset="utf-8"></script>
+    <script src="js\bootstrap.min.js" charset="utf-8"></script>
+    <script src="js\jquery.flexslider-min.js" charset="utf-8"></script>
+    <script src="js\main.js" charset="utf-8"></script>
+  </body>
+</html>

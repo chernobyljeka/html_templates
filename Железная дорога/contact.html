@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\flexslider.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css\style.css" media="screen" title="no title">
+  </head>
+  <body>
+    <!-- Начало шапки сайта -->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <!-- Картинка -->
+              <img class="logo" alt="Brand" src="img/logo.png">
+            </a>
+          </div>
+
+          <!-- Список -->
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="sevices.html">Дополнительные услуги</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="about.html">О Компании</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+    <!-- Конец шапки сайта -->
+
+    <!-- Начало главного блока -->
+    <section class="main">
+      <div class="container">
+        <h1 class="center">Контакты</h1>
+        <div class="block">
+          <div class="contact">
+               <div class="contact-tel">
+                <h3>+375 YY XXX-XX-XX</h3>
+                </div>
+                <br />
+                <div class="contact-skype"><h3>Skype:  example</h3> </div>
+                <br />
+                <div class="contact-mail"><h3>E-mail: <a href="mailto: example@mail.ru"><u>example@mail.ru</u></a></h3></div>
+                <div>
+                   <br>
+                    <h3>Контактное лицо: <i>Ольга Володина</i></h3>
+                    <br>
+                    <img src="img/contact.jpg" alt="Ольга Володина">
+                </div>
+          </div>
+
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 id="myModalLabel">Есть вопросы? Напишите нам.</h3>
+              </div>
+                <div class="modal-body">
+                    <form id="form" class="form_online" action="mail.php" method="post">
+                        <div class="form-group"><label class="no">Имя</label>
+                        <input class="form-control required" placeholder="Как к Вам обращаться?" name="name" required="">
+                        </div>
+                        <div class="form-group">
+                        <label class="no">Email</label>
+                        <input class="form-control email" placeholder="Введите Email (это необязательно)" name="email" >
+                        </div>
+
+                        <div class="form-group">
+                       <label class="no">Телефон</label>
+                        <input class="form-control phone" placeholder="Введите номер" name="tel" required="">
+                        <!-- скрытое поле -->
+                         <input type="hidden" name="phone_copy" value="">
+                        </div>
+                        <div class="form-group">
+
+                        <label class="no">Что Вас интересует?</label>
+                        <textarea class="form-control" placeholder="Задайте вопрос или укажите доп. контакты (можно оставить пустым)" name="message" ></textarea>
+                        </div>
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" required=""> Поставьте галочку, если Вы реальный человек
+                                </label>
+                              </div>
+                        <button type="submit" required="" class="btn btn-primary btn-lg">Отправить!</button>
+                    </form>
+                </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Конец главного блока -->
+
+    <!-- Начало "подвала" сайта  -->
+    <footer>
+      <div class="container">
+          <div class="foot_top row">
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <a  href="#"><img class="logo_fot" src="img/logo.png" alt=""></a>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                <span class="glyphicon glyphicon-phone-alt"></span>
+                <div class="foot_block_content three_rows">
+                  <p>Звоните нам </p>
+                  <p class="phone"><a href="tel:+375xxyyyyyyy"><b>+375 xx yyy-yy-yy</b></a></p>
+                  <div class="callback"><a href="#">Закажите обратный звонок</a></div>
+                </div>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <span class="glyphicon glyphicon-time"></span>
+                  <div class="foot_block_content adress">
+                  <p>Пн-Вс: c <span>9:00</span> до <span>21:00</span> </p>
+                  <p><span>Без выходных</span></p>
+                </div>
+              </div>
+              <div class="col-xs-3 col-md-3 col-lg-3 col-sm-12">
+                 <span class="glyphicon glyphicon-map-marker"></span>
+                  <div class="foot_block_content adress">
+                  <p><b>Наш адрес:</b></p>
+                  <p>г.Гомель, ул. Советская, д. 3</p>
+                </div>
+              </div>
+          </div>
+          </div>
+          <section class="bottom_footer">
+              <div class="container">
+                <div class="row">
+                   <div class="col col-xs-3 col-md-3 col-lg-3 col-sm-12">&copy SomeCompany 2016</div>
+                   <div class="col col-xs-9 col-md-9 col-lg-9 col-sm-12">
+                      <nav class="menu_footer">
+                        <ul>
+                          <li><a href="index.html">Главная</a></li>
+                          <li><a href="sevices.html">Дополнительные услуги</a></li>
+                          <li><a href="contact.html">Контакты</a></li>
+                          <li><a href="about.html">О Компании</a></li>
+                        </ul>
+                      </nav>
+                   </div>
+                </div>
+              </div>
+          </section>
+      </footer>
+    <!-- Коонец "подвала" сайта -->
+
+    <script src="js\jquery.min.js" charset="utf-8"></script>
+    <script src="js\bootstrap.min.js" charset="utf-8"></script>
+    <script src="js\jquery.flexslider-min.js" charset="utf-8"></script>
+    <script src="js\main.js" charset="utf-8"></script>
+  </body>
+</html>
